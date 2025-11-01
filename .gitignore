@@ -1,0 +1,6 @@
+venv/
+logs/
+mlruns/
+notebook/random_forest.pkl
+mlops_hotel_reservations.egg-info/
+config/serene-smoke-473622-q8-2dcb9ab2d051.json
