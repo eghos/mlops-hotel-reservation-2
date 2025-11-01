@@ -3,8 +3,6 @@ pipeline{
 
     environment {
         VENV_DIR = 'venv'
-        GCP_PROJECT = "mlops-new-447207"
-        GCLOUD_PATH = "/var/jenkins_home/google-cloud-sdk/bin"
     }
 
     stages{
@@ -21,6 +19,8 @@ pipeline{
         stage('Setting up our Virtual Environment and Installing dependancies'){
             steps{
                 script{
+                    echo 'listing files before creating virtual environment......................'
+                    ls -la 
                     echo 'Setting up our Virtual Environment and Installing dependancies............'
                     sh '''
                     python -m venv ${VENV_DIR}
