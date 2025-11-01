@@ -1,0 +1,5 @@
+2025-10-31 21:00:56,802 - INFO - Successfully read the yaml file
+2025-10-31 21:00:56,802 - INFO - Data Ingestion started with mlops-eghobor and file is  Hotel_Reservations.csv
+2025-10-31 21:00:56,802 - INFO - Starting data ingestion process
+2025-10-31 21:00:56,802 - ERROR - Error while downloading the csv file
+2025-10-31 21:00:56,802 - INFO - Data ingestion completed

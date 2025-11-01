@@ -1,0 +1,14 @@
+artifact_uri: file:///Users/aeghobor/mlops/mlops-hotel-reservation/mlruns/0/59922902aab649cebb8b17aeabeddb89/artifacts
+end_time: 1761863996590
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 59922902aab649cebb8b17aeabeddb89
+run_name: vaunted-snail-780
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1761863963575
+status: 3
+tags: []
+user_id: aeghobor

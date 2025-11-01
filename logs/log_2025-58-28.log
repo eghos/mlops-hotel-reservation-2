@@ -1,0 +1,8 @@
+2025-10-28 22:58:37,919 - INFO - Successfully read the yaml file
+2025-10-28 22:58:37,919 - INFO - Loading data from RAW directory
+2025-10-28 22:58:37,919 - INFO - Loading data
+2025-10-28 22:58:37,962 - INFO - Loading data
+2025-10-28 22:58:37,972 - INFO - Starting our Data Processing step
+2025-10-28 22:58:37,972 - INFO - Dropping the columns
+2025-10-28 22:58:37,983 - ERROR - Error during preprocess step 'data_processing'
+2025-10-28 22:58:37,984 - ERROR - Error during preprocessing pipeline 'KeyError' object has no attribute 'exc_info'

@@ -1,0 +1,9 @@
+2025-10-26 11:52:17,269 - INFO - Successfully read the yaml file
+2025-10-26 11:52:17,269 - INFO - Data Ingestion started with mlops-eghobor and file is  Hotel_Reservations.csv
+2025-10-26 11:52:17,269 - INFO - Starting data ingestion process
+2025-10-26 11:52:18,541 - INFO - CSV file is sucesfully downloaded to artifacts/raw/raw.csv
+2025-10-26 11:52:18,541 - INFO - Starting the splitting process
+2025-10-26 11:52:18,709 - INFO - Train data saved to artifacts/raw/train.csv
+2025-10-26 11:52:18,710 - INFO - Test data saved to artifacts/raw/test.csv
+2025-10-26 11:52:18,711 - INFO - Data ingestion completed sucesfully
+2025-10-26 11:52:18,711 - INFO - Data ingestion completed

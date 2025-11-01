@@ -1,0 +1,14 @@
+artifact_uri: file:///Users/aeghobor/mlops/mlops-hotel-reservation/mlruns/0/842142511b7b4f7aa237ced796bbf91c/artifacts
+end_time: 1761863562990
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 842142511b7b4f7aa237ced796bbf91c
+run_name: smiling-cow-713
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1761863529864
+status: 3
+tags: []
+user_id: aeghobor
