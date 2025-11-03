@@ -24,7 +24,7 @@ pipeline{
                     ls -la venv
                     ls -la venv/bin
                     python -m venv ${VENV_DIR}
-                    source ${VENV_DIR}/bin/activate
+                    // . ${VENV_DIR}/bin/activate
                     pip install --upgrade pip
                     pip install -e .
                     '''
