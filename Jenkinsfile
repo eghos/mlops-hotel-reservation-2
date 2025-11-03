@@ -19,10 +19,9 @@ pipeline{
         stage('Setting up our Virtual Environment and Installing dependancies'){
             steps{
                 script{
-                    echo 'listing files before creating virtual environment......................'
-                    ls -la 
                     echo 'Setting up our Virtual Environment and Installing dependancies............'
                     sh '''
+                    ls -la
                     python -m venv ${VENV_DIR}
                     . ${VENV_DIR}/bin/activate
                     pip install --upgrade pip
