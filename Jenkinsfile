@@ -23,8 +23,8 @@ pipeline{
                     sh '''
                     ls -la venv
                     ls -la venv/bin
-                    python3 -m venv ${VENV_DIR}
-                    // . ${VENV_DIR}/bin/activate
+                    // ./venv/bin/python3 -m venv ${VENV_DIR}
+                    . ${VENV_DIR}/bin/activate
                     pip install --upgrade pip
                     pip install -e .
                     '''
