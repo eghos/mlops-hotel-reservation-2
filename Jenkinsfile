@@ -22,6 +22,7 @@ pipeline{
                     echo 'Setting up our Virtual Environment and Installing dependancies............'
                     sh '''
                     ls -la
+                    pwd
                     python -m venv ${VENV_DIR}
                     . ${VENV_DIR}/bin/activate
                     pip install --upgrade pip
