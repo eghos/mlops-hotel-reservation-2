@@ -46,7 +46,7 @@ pipeline{
 
                         gcloud auth configure-docker --quiet
 
-                        docker build -t --platform linux/amd64 gcr.io/${GCP_PROJECT}/mlops-hotel-reservation:latest .
+                        docker buildx build --platform linux/amd64 -t gcr.io/serene-smoke-473622-q8/mlops-hotel-reservation:latest .
 
                         docker push gcr.io/${GCP_PROJECT}/mlops-hotel-reservation:latest 
 
